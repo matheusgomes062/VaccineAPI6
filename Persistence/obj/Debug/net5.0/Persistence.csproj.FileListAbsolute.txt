@@ -1,0 +1,15 @@
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/bin/Debug/net5.0/Persistence.deps.json
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/bin/Debug/net5.0/Persistence.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/bin/Debug/net5.0/ref/Persistence.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/bin/Debug/net5.0/Persistence.pdb
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/bin/Debug/net5.0/Domain.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/bin/Debug/net5.0/Domain.pdb
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/obj/Debug/net5.0/Persistence.csprojAssemblyReference.cache
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/obj/Debug/net5.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfoInputs.cache
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfo.cs
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/obj/Debug/net5.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/obj/Debug/net5.0/Persistence.csproj.CopyComplete
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/obj/Debug/net5.0/Persistence.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/obj/Debug/net5.0/ref/Persistence.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/obj/Debug/net5.0/Persistence.pdb

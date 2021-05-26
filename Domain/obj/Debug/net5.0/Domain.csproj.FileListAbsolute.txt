@@ -1,0 +1,12 @@
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/bin/Debug/net5.0/Domain.deps.json
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/bin/Debug/net5.0/Domain.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/bin/Debug/net5.0/ref/Domain.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/bin/Debug/net5.0/Domain.pdb
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/obj/Debug/net5.0/Domain.csprojAssemblyReference.cache
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/obj/Debug/net5.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/obj/Debug/net5.0/Domain.AssemblyInfoInputs.cache
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/obj/Debug/net5.0/Domain.AssemblyInfo.cs
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/obj/Debug/net5.0/Domain.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/obj/Debug/net5.0/ref/Domain.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Domain/obj/Debug/net5.0/Domain.pdb
