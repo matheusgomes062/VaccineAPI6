@@ -1,5 +1,6 @@
 
 using System.Collections.Generic;
+using API.Extensions;
 using Application.Core;
 using Application.Patients;
 using MediatR;
@@ -27,19 +28,8 @@ namespace API
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-
       services.AddControllers();
-      services.AddSwaggerGen(c =>
-      {
-        c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
-      });
-      services.AddDbContext<DataContext>(option =>
-      {
-        option.UseSqlite(_config.GetConnectionString("DefaultConnection"));
-      });
-      services.AddMediatR(typeof(List.Handler).Assembly);
-      services.AddAutoMapper(typeof(MappingProfiles).Assembly);
-
+      services.AddApplicationServices(_config);
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
