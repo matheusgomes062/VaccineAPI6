@@ -27,5 +27,18 @@ namespace API.Controllers
     {
       return Ok(await Mediator.Send(new Create.Command { Patient = patient }));
     }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> EditPatient(Guid id, Patient patient)
+    {
+      patient.Id = id;
+      return Ok(await Mediator.Send(new Edit.Command { Patient = patient }));
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeletePatient(Guid id)
+    {
+      return Ok(await Mediator.Send(new Delete.Command { Id = id }));
+    }
   }
 }

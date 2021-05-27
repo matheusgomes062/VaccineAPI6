@@ -62,3 +62,5 @@
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/obj/Debug/net5.0/ref/API.dll
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/obj/Debug/net5.0/API.pdb
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/obj/Debug/net5.0/API.genruntimeconfig.cache
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/AutoMapper.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
