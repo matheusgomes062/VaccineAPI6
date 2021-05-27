@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kL4Pirzm38ezhRt4f3HBPpmHd0bUbtzrEM8vYH2fAImPVdtJGjMnmsK6vnlw1gmqbb8uNLm4R7XYJAtuag4ZgA==",
+  "dgSpecHash": "bby2wfiFUBfOPU6ZeQ2EjLnVrEG++qIGZyJK5nWmgDkyr4FP2VW0xoOyK5Ojp943/DnZK0CZabHpuXEjtwXgiw==",
   "success": true,
   "projectFilePath": "/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/matheusgomes/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.data.sqlite.core/5.0.6/microsoft.data.sqlite.core.5.0.6.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.entityframeworkcore/5.0.6/microsoft.entityframeworkcore.5.0.6.nupkg.sha512",

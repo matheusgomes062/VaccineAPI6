@@ -1,6 +1,4 @@
-﻿
-using System;
-using Domain;
+﻿using Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace Persistence
@@ -11,6 +9,6 @@ namespace Persistence
     {
     }
     public DbSet<Patient> Patients { get; set; }
-    public DbSet<Vaccine> Vaccines { get; set; }
+    // public DbSet<Vaccine> Vaccines { get; set; }
   }
 }

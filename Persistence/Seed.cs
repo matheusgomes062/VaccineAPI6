@@ -11,7 +11,7 @@ namespace Persistence
         public static async Task SeedData(DataContext context)
         {
             if(context.Patients.Any()) return;
-            if(context.Vaccines.Any()) return;
+            // if(context.Vaccines.Any()) return;
 
             var patients = new List<Patient>
             {
@@ -54,39 +54,39 @@ namespace Persistence
             };
 
 
-            var vaccines = new List<Vaccine>
-            {
-                new Vaccine
-                {
-                    Name = "Pfizer-BioNTech",
-                    Manufacturer = "Pfizer, Inc., and BioNTech",
-                    Batch = 1,
-                    DueDate = DateTime.Now.AddMonths(3),
-                    NumberOfDoses = 2,
-                    IntervalBetweenDoses = 21,
-                },
-                new Vaccine
-                {
-                    Name = "Moderna",
-                    Manufacturer = "ModernaTX, Inc.",
-                    Batch = 1,
-                    DueDate = DateTime.Now.AddMonths(3),
-                    NumberOfDoses = 2,
-                    IntervalBetweenDoses = 28,
-                },
-                new Vaccine
-                {
-                    Name = "Johnson & Johnson’s Janssen",
-                    Manufacturer = "Janssen Pharmaceuticals Companies of Johnson & Johnson",
-                    Batch = 1,
-                    DueDate = DateTime.Now.AddMonths(3),
-                    NumberOfDoses = 1,
-                    IntervalBetweenDoses = 0,
-                },
-            };
+            // var vaccines = new List<Vaccine>
+            // {
+            //     new Vaccine
+            //     {
+            //         Name = "Pfizer-BioNTech",
+            //         Manufacturer = "Pfizer, Inc., and BioNTech",
+            //         Batch = 1,
+            //         DueDate = DateTime.Now.AddMonths(3),
+            //         NumberOfDoses = 2,
+            //         IntervalBetweenDoses = 21,
+            //     },
+            //     new Vaccine
+            //     {
+            //         Name = "Moderna",
+            //         Manufacturer = "ModernaTX, Inc.",
+            //         Batch = 1,
+            //         DueDate = DateTime.Now.AddMonths(3),
+            //         NumberOfDoses = 2,
+            //         IntervalBetweenDoses = 28,
+            //     },
+            //     new Vaccine
+            //     {
+            //         Name = "Johnson & Johnson’s Janssen",
+            //         Manufacturer = "Janssen Pharmaceuticals Companies of Johnson & Johnson",
+            //         Batch = 1,
+            //         DueDate = DateTime.Now.AddMonths(3),
+            //         NumberOfDoses = 1,
+            //         IntervalBetweenDoses = 0,
+            //     },
+            // };
 
             await context.Patients.AddRangeAsync(patients);
-            await context.Vaccines.AddRangeAsync(vaccines);
+            // await context.Vaccines.AddRangeAsync(vaccines);
             await context.SaveChangesAsync();
         }
     }
