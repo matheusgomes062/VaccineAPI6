@@ -2,6 +2,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
 using Domain;
+using FluentValidation;
 using MediatR;
 using Persistence;
 
@@ -12,6 +13,14 @@ namespace Application.Patients
     public class Command : IRequest
     {
       public Patient Patient { get; set; }
+    }
+
+    public class CommandValidator : AbstractValidator<Command>
+    {
+      public CommandValidator()
+      {
+        RuleFor(x => x.Patient).SetValidator(new PatientValidator());
+      }
     }
 
     public class Handler : IRequestHandler<Command>

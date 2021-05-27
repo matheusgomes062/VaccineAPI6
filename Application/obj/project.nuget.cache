@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "GQDHklVPAHIrHqudXuLSBc/nlwv6f2ZgD3sS/S1N964EekHaqqBPHvrXHoFbvRUFc7JggPgEdFfsE2gBAfd/6A==",
+  "dgSpecHash": "l/qFXjMKDNDhWF/ZmXBeHMHquvaCU7anOOQLhbzAwetE+XvwQ5cC4LuJBHrmvOuHWWeb+VAisT32Ai7EocBZAQ==",
   "success": true,
   "projectFilePath": "/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Application/Application.csproj",
   "expectedPackageFiles": [
     "/Users/matheusgomes/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/extensions.fluentvalidation.br/1.0.2/extensions.fluentvalidation.br.1.0.2.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/fluentvalidation/10.1.0/fluentvalidation.10.1.0.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/fluentvalidation.aspnetcore/10.1.0/fluentvalidation.aspnetcore.10.1.0.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.1.0/fluentvalidation.dependencyinjectionextensions.10.1.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

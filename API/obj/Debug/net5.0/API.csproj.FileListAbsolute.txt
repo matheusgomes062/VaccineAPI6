@@ -64,3 +64,7 @@
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/obj/Debug/net5.0/API.genruntimeconfig.cache
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/AutoMapper.dll
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/FluentValidation.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/FluentValidation.AspNetCore.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/FluentValidation.Extensions.Br.dll
