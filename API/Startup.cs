@@ -13,6 +13,7 @@ namespace API
   public class Startup
   {
     private readonly IConfiguration _config;
+    readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
     public Startup(IConfiguration config)
     {
       _config = config;
@@ -23,6 +24,22 @@ namespace API
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
+      services.AddCors(options =>
+        {
+          options.AddPolicy(name: MyAllowSpecificOrigins,
+            builder =>
+            {
+              builder.WithOrigins(
+                "http://localhost:8080",
+                "https://localhost:8080",
+                "http://localhost:8081",
+                "https://localhost:8081"
+              )
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+            });
+        });
+
       services.AddControllers().AddFluentValidation(config =>
       {
         config.RegisterValidatorsFromAssemblyContaining<Create>();
@@ -42,9 +59,11 @@ namespace API
         app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
       }
 
-      // app.UseHttpsRedirection();
+      app.UseHttpsRedirection();
 
       app.UseRouting();
+
+      app.UseCors(MyAllowSpecificOrigins);
 
       app.UseAuthorization();
 
