@@ -1,27 +1,31 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Domain
 {
-    public class Patient
-    {
-        public Guid Id { get; set; }
+  public class Patient
+  {
+    public Guid Id { get; set; }
 
-        public string Name { get; set; }
+    public string Name { get; set; }
 
-        public string Email { get; set; }
+    public string Email { get; set; }
 
-        public string Cpf { get; set; }
+    public string Cpf { get; set; }
 
-        public DateTime Birthdate { get; set; }
+    public DateTime Birthdate { get; set; }
 
-        public bool Comorbidity { get; set; }
+    public bool Comorbidity { get; set; }
 
-        public string Address { get; set; }
+    public string Address { get; set; }
 
-        public string District { get; set; }
+    public string District { get; set; }
 
-        public string State { get; set; }
+    public string State { get; set; }
 
-        public string City { get; set; }
-    }
+    public string City { get; set; }
+
+    public ICollection<PatientVaccine> PatientVaccines { get; set; }
+
+  }
 }
