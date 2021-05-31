@@ -70,7 +70,8 @@ namespace API.Extensions
                 "https://proradis-challenge-qps5u2jzz-matheusgomes062.vercel.app/"
               )
               .AllowAnyHeader()
-              .AllowAnyMethod();
+              .AllowAnyMethod()
+              .AllowAnyOrigin();
             });
         });
 
