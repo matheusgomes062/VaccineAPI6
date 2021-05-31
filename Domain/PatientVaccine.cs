@@ -14,6 +14,8 @@ namespace Domain
 
     public Vaccine Vaccine { get; set; }
 
+    public DateTime ApplicationDate { get; set; }
+
     public int DoseApplied { get; set; }
 
     public bool CompleteVaccination { get; set; }

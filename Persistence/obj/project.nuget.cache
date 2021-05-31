@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "G3MNbitlteK+PFw2SVNZvoC+xYbadCkj8UhhzjQZeB4axmkSJGvI2iOiIdyyaZ5RIpl8ZJJyMW/H+/ZYSM3ebQ==",
+  "dgSpecHash": "2jGqkw/R+Ya7mbML/EwbH2L/ksIuBq3dBrDI9Qs/1l+fKw64trgW23cMK47N5oiAyc8hFirxVsWaFeAloS88TA==",
   "success": true,
   "projectFilePath": "/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/Persistence.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "/Users/matheusgomes/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4/sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
