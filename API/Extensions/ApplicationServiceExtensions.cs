@@ -64,7 +64,10 @@ namespace API.Extensions
                 "https://localhost:8080",
                 "http://localhost:8081",
                 "https://localhost:8081",
-                "https://proradis-challenge.vercel.app/"
+                "https://proradis-challenge.vercel.app/",
+                "https://proradis-challenge-matheusgomes062.vercel.app/",
+                "https://proradis-challenge-git-main-matheusgomes062.vercel.app/",
+                "https://proradis-challenge-qps5u2jzz-matheusgomes062.vercel.app/"
               )
               .AllowAnyHeader()
               .AllowAnyMethod();
