@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Persistence.Migrations
 {
-    public partial class Initial : Migration
+    public partial class PGInitial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,16 +11,16 @@ namespace Persistence.Migrations
                 name: "Patients",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "TEXT", nullable: false),
-                    Name = table.Column<string>(type: "TEXT", nullable: true),
-                    Email = table.Column<string>(type: "TEXT", nullable: true),
-                    Cpf = table.Column<string>(type: "TEXT", nullable: true),
-                    Birthdate = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    Comorbidity = table.Column<bool>(type: "INTEGER", nullable: false),
-                    Address = table.Column<string>(type: "TEXT", nullable: true),
-                    District = table.Column<string>(type: "TEXT", nullable: true),
-                    State = table.Column<string>(type: "TEXT", nullable: true),
-                    City = table.Column<string>(type: "TEXT", nullable: true)
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: true),
+                    Email = table.Column<string>(type: "text", nullable: true),
+                    Cpf = table.Column<string>(type: "text", nullable: true),
+                    Birthdate = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
+                    Comorbidity = table.Column<bool>(type: "boolean", nullable: false),
+                    Address = table.Column<string>(type: "text", nullable: true),
+                    District = table.Column<string>(type: "text", nullable: true),
+                    State = table.Column<string>(type: "text", nullable: true),
+                    City = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -31,13 +31,13 @@ namespace Persistence.Migrations
                 name: "Vaccines",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "TEXT", nullable: false),
-                    Name = table.Column<string>(type: "TEXT", nullable: true),
-                    Manufacturer = table.Column<string>(type: "TEXT", nullable: true),
-                    Batch = table.Column<int>(type: "INTEGER", nullable: false),
-                    DueDate = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    NumberOfDoses = table.Column<int>(type: "INTEGER", nullable: false),
-                    IntervalBetweenDoses = table.Column<int>(type: "INTEGER", nullable: false)
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: true),
+                    Manufacturer = table.Column<string>(type: "text", nullable: true),
+                    Batch = table.Column<int>(type: "integer", nullable: false),
+                    DueDate = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
+                    NumberOfDoses = table.Column<int>(type: "integer", nullable: false),
+                    IntervalBetweenDoses = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -48,11 +48,12 @@ namespace Persistence.Migrations
                 name: "PatientVaccines",
                 columns: table => new
                 {
-                    PatientId = table.Column<Guid>(type: "TEXT", nullable: false),
-                    VaccineId = table.Column<Guid>(type: "TEXT", nullable: false),
-                    PatientVaccineId = table.Column<Guid>(type: "TEXT", nullable: false),
-                    DoseApplied = table.Column<int>(type: "INTEGER", nullable: false),
-                    CompleteVaccination = table.Column<bool>(type: "INTEGER", nullable: false)
+                    PatientId = table.Column<Guid>(type: "uuid", nullable: false),
+                    VaccineId = table.Column<Guid>(type: "uuid", nullable: false),
+                    PatientVaccineId = table.Column<Guid>(type: "uuid", nullable: false),
+                    ApplicationDate = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
+                    DoseApplied = table.Column<int>(type: "integer", nullable: false),
+                    CompleteVaccination = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
                 {

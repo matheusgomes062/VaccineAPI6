@@ -72,3 +72,8 @@
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/HealthChecks.NpgSql.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/Npgsql.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll

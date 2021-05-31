@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2jGqkw/R+Ya7mbML/EwbH2L/ksIuBq3dBrDI9Qs/1l+fKw64trgW23cMK47N5oiAyc8hFirxVsWaFeAloS88TA==",
+  "dgSpecHash": "c2UdNWIfxdhKazpc+HIAH5gVvVCuYBWxvVwWKrN1pjpeGMWtnKq3ribmXvArf/o6GgsBKFtxx3ptHsucuy0IpQ==",
   "success": true,
   "projectFilePath": "/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/Persistence/Persistence.csproj",
   "expectedPackageFiles": [
+    "/Users/matheusgomes/.nuget/packages/aspnetcore.healthchecks.npgsql/5.0.2/aspnetcore.healthchecks.npgsql.5.0.2.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.data.sqlite.core/5.0.6/microsoft.data.sqlite.core.5.0.6.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.entityframeworkcore/5.0.6/microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
@@ -18,11 +19,17 @@
     "/Users/matheusgomes/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.1/microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.extensions.dependencymodel/5.0.0/microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/5.0.1/microsoft.extensions.diagnostics.healthchecks.5.0.1.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/5.0.1/microsoft.extensions.diagnostics.healthchecks.abstractions.5.0.1.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/microsoft.extensions.fileproviders.abstractions/5.0.0/microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/microsoft.extensions.hosting.abstractions/5.0.0/microsoft.extensions.hosting.abstractions.5.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/npgsql/5.0.5/npgsql.5.0.5.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/npgsql.entityframeworkcore.postgresql/5.0.6/npgsql.entityframeworkcore.postgresql.5.0.6.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4/sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
@@ -30,7 +37,8 @@
     "/Users/matheusgomes/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "/Users/matheusgomes/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+    "/Users/matheusgomes/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

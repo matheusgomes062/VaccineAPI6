@@ -13,7 +13,6 @@ namespace API
   public class Startup
   {
     private readonly IConfiguration _config;
-    readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
     public Startup(IConfiguration config)
     {
       _config = config;
@@ -24,22 +23,6 @@ namespace API
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-      services.AddCors(options =>
-        {
-          options.AddPolicy(name: MyAllowSpecificOrigins,
-            builder =>
-            {
-              builder.WithOrigins(
-                "http://localhost:8080",
-                "https://localhost:8080",
-                "http://localhost:8081",
-                "https://localhost:8081"
-              )
-              .AllowAnyHeader()
-              .AllowAnyMethod();
-            });
-        });
-
       services.AddControllers().AddNewtonsoftJson().AddFluentValidation(config =>
       {
         config.RegisterValidatorsFromAssemblyContaining<Create>();
@@ -63,7 +46,7 @@ namespace API
 
       app.UseRouting();
 
-      app.UseCors(MyAllowSpecificOrigins);
+      app.UseCors("CorsPolicy");
 
       app.UseAuthorization();
 
