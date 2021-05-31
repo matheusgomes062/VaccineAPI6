@@ -40,7 +40,7 @@ namespace API
             });
         });
 
-      services.AddControllers().AddFluentValidation(config =>
+      services.AddControllers().AddNewtonsoftJson().AddFluentValidation(config =>
       {
         config.RegisterValidatorsFromAssemblyContaining<Create>();
       });
