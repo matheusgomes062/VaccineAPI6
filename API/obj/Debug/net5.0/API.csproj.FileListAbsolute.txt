@@ -77,3 +77,5 @@
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/Npgsql.dll
 /Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/NWebsec.AspNetCore.Core.dll
+/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/bin/Debug/net5.0/NWebsec.AspNetCore.Middleware.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ftjNuaEgnjT2BKKZDwDz+bTy15ygVinEY+Vw4mlir2p0FSGaqbo4WAgf0Kq67SafW1AVjTQ6TKCJyFilw2E2cA==",
+  "dgSpecHash": "n/qiq7JjzAwzhg3LwGanwQF67gIMrQS6vgLkeqQYPhkHoAzjSf6iwJ1x78+NevheleeCXxm/RQOoz0dmYzt2DQ==",
   "success": true,
   "projectFilePath": "/Users/matheusgomes/Documents/repos.nosync/projects/VaccineAPI6/API/API.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,8 @@
     "/Users/matheusgomes/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/npgsql/5.0.5/npgsql.5.0.5.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/npgsql.entityframeworkcore.postgresql/5.0.6/npgsql.entityframeworkcore.postgresql.5.0.6.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/nwebsec.aspnetcore.core/3.0.0/nwebsec.aspnetcore.core.3.0.0.nupkg.sha512",
+    "/Users/matheusgomes/.nuget/packages/nwebsec.aspnetcore.middleware/3.0.0/nwebsec.aspnetcore.middleware.3.0.0.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4/sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
     "/Users/matheusgomes/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
